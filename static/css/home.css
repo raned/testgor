@@ -1,0 +1,82 @@
+ion-content [data-role='page']{
+    margin-top: 100px;
+}
+
+article h4{
+    margin: 0;
+}
+
+article.news-item, article.restaurant, article.recipe{
+    margin: 10px auto;
+    box-shadow: 0 0 5px #999;
+    max-width: 600px;
+}
+
+article.restaurant img, article.news-item img, article.recipe img.recipe-image{
+    width: 100%;
+    margin-right: 5px;
+}
+
+article.news-item .news-item-data, article.recipe .recipe-data{
+    padding: 5px 0 5px 5px;
+}
+
+
+
+
+/**** Restaurants View ***/
+
+article.restaurant, article.recipe{
+    position: relative;
+}
+
+article.restaurant section.restaurant-info, article.recipe .recipe-info{
+    padding: 5px 0 5px 5px;
+}
+
+article.restaurant section.restaurant-popup, article.recipe section.recipe-chef{
+    padding: 5px 0 5px 5px;
+    text-align: center;
+}
+
+article.restaurant address{
+    margin-bottom: 0;
+}
+
+article.restaurant .popup {
+    background: red;
+    padding: 12px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+
+/*** Recipe Views ***/
+
+@media (max-width: 540px) {
+    article.recipe{
+        min-height: 50px;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 720px){
+    article.recipe{
+        min-height: 100px;
+    }
+}
+
+@media (min-width: 721px) {
+    article.recipe{
+        min-height: 150px;
+    }
+}
+
+
+article.recipe .recipe-chef-img{
+    max-width: 100px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}

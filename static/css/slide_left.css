@@ -1,0 +1,63 @@
+#left_menu{
+    width:auto;
+    height:100%;
+    background:#800;
+    z-index:20000;
+    position: absolute;
+    top:0;
+    display:none;
+}
+
+
+#left_menu ul{
+ padding: 0;
+	margin: 0;
+	list-style: none;
+	border-bottom: 1px solid #95A5A6;
+}
+
+
+#left_menu a {
+	color: #FFF !important;
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+	font-size: 14px;
+	padding: 15px 20px 15px 60px;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid #475657;
+	border-top: 1px solid #95A5A6;
+	position: relative;
+	font-weight: 400;
+}
+
+ #left_menu a:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 15px;
+	left: 20px;
+	font-family: 'hk-demo';
+	text-align: center;
+	font-size: 18px;
+}
+#left_menu .newsfeed a:before { 
+	content: '\f09e';
+}
+#left_menu .profile a:before { 
+	content: '\👤';
+}
+#left_menu .setting a:before { 
+	content: '\2699';
+}
+#left_menu .logout a:before { 
+	content: '\e78e';
+}
+#left_menu .report a:before { 
+	content: '\f0e0';
+}
+
+#left_menu a:hover {
+	background-color: #95A5A6;
+}

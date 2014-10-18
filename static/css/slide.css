@@ -1,0 +1,56 @@
+#slide_menu{
+    width:200%;
+    height:auto;
+    background: #fff;
+    position: absolute;
+    overflow:hidden;
+    margin-left: -50%;
+ 
+}
+
+#slider{
+    width:auto;
+    height:auto;
+    position: relative;
+    margin-left: 25%;
+    
+}
+
+.profile .profile-cover-photo{
+    background: url(../img/pancake.jpg) no-repeat;   
+    width:100%;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    padding-top:100px;
+   
+
+}
+
+.profile .profile-cover-photo img{
+    bottom: 0;
+    width:150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.profile .profile-cover-photo img:hover{
+    cursor:pointer;
+}
+.profile{
+    width:100%;
+    height:100%;
+}
+
+.ui-panel-content-wrap {
+    position: relative;
+    left: 0px;
+    min-height: 50px;
+    border: medium none;
+    z-index: 999;
+}

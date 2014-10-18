@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="static/css/ionic.min.css" type="text/css" >
+    <link rel="stylesheet" href="static/css/libs.css" type="text/css" >
+    <link rel="stylesheet" href="static/css/index.css" type="text/css" >
+  </head>
+
+  <body class="metro" style="">
+    <div id="container"></div>
+    <div class="container-fluid sub_container" >
+      <div id="login">
+        <section class="list list-inset">
+        <form action="" role="form" class="logreg full-width" id="user_login" method="post" accept-charset="utf-8">
+          <label class="item ">
+            <input type="text"  required="required" id="UserUsername" name="username" placeholder="Username">
+          </label>
+          <label class="item">
+            <input type="password" id="UserPassword"  required="required" name="password" placeholder="Password" />
+          </label>
+        <label class="item" >
+          <button class="button button-positive button-full" type="submit">Signin</button>
+          </label>
+        </form>
+        <label class="item" >
+          <button class="button button-full fbsubmit btn-facebook" type="button"></button>
+          <h2 id="btn-registration">Don't have an account?</h2>
+        </label>
+        </section>
+      </div>
+      <div id="signup" style="display: none">
+        <section class="list list-inset">
+        <form role="form" name="user_registration" class="logreg" id="user_registration" method="post" accept-charset="utf-8" >
+          <label class="item ">
+            <input type="text"  required="required" name="full_name" placeholder="Full Name">
+          </label>
+          <label class="item ">
+            <input type="text"  required="required" name="username" placeholder="Username" />
+          </label>
+          <label class="item ">
+            <input type="email"  required="required" name="email" placeholder="Email">
+          </label>
+          <label class="item ">
+            <input type="password"  required="required" name="password" placeholder="Password" />
+          </label>
+        <label class="item " >
+          <button class="button button-positive button-full" type="submit">Register</button>
+          </label>
+        </form>
+        <label class="item " >
+          <button class="button button-full fbsubmit btn-facebook" type="button"></button>
+          <h2 id="btn-login">Already have an account?</h2>
+        </label>
+          </section>
+      </div>
+    </div>
+
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/libs.js"></script>
+    <script src="static/js/index.js"></script>
+  </body>
+
+</html>
